@@ -1,1 +1,105 @@
 /* css Stylesheet */
+* {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.logo {
+    color: rgb(253, 61, 93)
+}
+
+.navbar {
+    opacity: .8 !important;
+}
+
+.active {
+    color: black !important;
+}
+a:hover {
+    background-color: skyblue;
+  }
+.header {
+    background-image: url(header.png);
+    background-size: cover;
+    background-repeat: none;
+    min-height: 460px;
+}
+
+.head_text {
+    position: relative;
+    top: 200px;
+    left: 720px;
+}
+
+.yourcompany {
+    color: rgb(255, 72, 0);
+}
+
+h3 {
+    color: rgb(255, 72, 0);
+}
+
+.colored {
+    color: rgb(255, 72, 0);
+}
+
+.stats {
+    background-color: rgb(1, 33, 43);
+    color: white;
+}
+
+.colored {
+    font-family: vani;
+}
+
+.contact_form {
+    background-color: rgb(1, 33, 43);
+    color: white;
+}
+
+.form-control {
+    background-color: rgb(1, 33, 43) !important;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid grey !important;
+    width: 90%;
+}
+
+.btn-contact {
+    background-color: tomato;
+    border-radius: 0%;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.vl {
+    border-right: 2px solid black;
+    height: 30px;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: rgb(1, 33, 43);
+    color: white;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.copyright {
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    color: white;
+}
